@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Filter Javascript Project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=0.8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header id="header">
+        <img src="images/logo.png" id="logo">
+        <div id="header-first-section">
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="#store-section">Store</a>
+        </div>
+
+        <div id="cart">
+            <img src="images/cart.png" class="header-images">
+            <span>0 Items - $0</span>
+        </div>
+
+        <div id="phone-number">
+            <img src="images/phone.png" class="header-images">
+            <span>+113 436 229</span>
+        </div>
+    </header>
+
+    <section id="introduction-section">
+        <div id="welcome-text">
+            <h2>Welcome to</h2>
+            <h1>Uncle Chris's</h1>
+        </div>
+        <a href="">Explore</a>
+    </section>
+
+    <section id="store-section">
+        <h1>Our Store</h1>
+        <div id="categories">
+            <input type="button" value="All" id="showAll">
+            <input type="button" value="Trees" id="showTrees">
+            <input type="button" value="Soil" id="showSoil">
+            <input type="button" value="Fertiliser" id="showFertiliser">
+            <input type="button" value="Tools" id="showTools">
+        </div>
+        <input type="text" placeholder="Item..." id="search-field">
+        <input type="button" value="Search" id="search-button">
+
+        <div id="items-div">
+            <div class="trees">
+                <img src="images/1.jpg" class="item-img" name="item-pictures">
+                <span class="name">Olive Tree Sapling</span>
+                <span class="price">19.99$</span>
+                <span class="add-to-cart">Add to Cart</span>
+            </div>
+
+            <div class="trees">
+                <img src="images/2.jpg" class="item-img" name="item-pictures">
+                <span class="name">Orange Tree Sapling</span>
+                <span class="price">19.99$</span>
+            </div>
+
+            <div class="trees">
+                <img src="images/3.jpg" class="item-img" name="item-pictures">
+                <span class="name">Pine Tree Sapling</span>
+                <span class="price">19.99$</span>
+            </div>
+
+            <div class="trees">
+                <img src="images/4.jpg" class="item-img" name="item-pictures">
+                <span class="name">Apple Tree Sapling</span>
+                <span class="price">19.99$</span>
+            </div>
+
+            <div class="soil">
+                <img src="images/5.jpg" class="item-img" name="item-pictures">
+                <span class="name">Moist Soil</span>
+                <span class="price">5.99$</span>
+            </div>
+
+            <div class="soil">
+                <img src="images/6.jpg" class="item-img" name="item-pictures">
+                <span class="name">Safal Total Soil</span>
+                <span class="price">5.99$</span>
+            </div>
+
+            <div class="fertiliser">
+                <img src="images/7.jpg" class="item-img" name="item-pictures">
+                <span class="name">Richfield Fertiliser</span>
+                <span class="price">9.99$</span>
+            </div>
+
+            <div class="fertiliser">
+                <img src="images/8.jpg" class="item-img" name="item-pictures">
+                <span class="name">Grass Fertiliser</span>
+                <span class="price">6.99$</span>
+            </div>
+
+            <div class="fertiliser">
+                <img src="images/9.jpg" class="item-img" name="item-pictures">
+                <span class="name">Fruit Booster</span>
+                <span class="price">6.99$</span>
+            </div>
+
+            <div class="tools">
+                <img src="images/10.jpg" class="item-img" name="item-pictures">
+                <span class="name">Metal Watering Can</span>
+                <span class="price">29.99$</span>
+            </div>
+
+            <div class="tools">
+                <img src="images/11.jpg" class="item-img" name="item-pictures">
+                <span class="name">Plastic Watering Can</span>
+                <span class="price">19.99$</span>
+            </div>
+
+            <div class="tools">
+                <img src="images/12.jpg" class="item-img" name="item-pictures">
+                <span class="name">Garden Gloves</span>
+                <span class="price">5.99$</span>
+            </div>
+
+            <div class="tools">
+                <img src="images/13.jpg" class="item-img" name="item-pictures">
+                <span class="name">Garden Shovel</span>
+                <span class="price">14.99$</span>
+            </div>
+
+            <div class="tools">
+                <img src="images/14.jpg" class="item-img" name="item-pictures">
+                <span class="name">Garden Rake</span>
+                <span class="price">9.99$</span>
+            </div>
+
+            <div class="tools">
+                <img src="images/15.jpg" class="item-img" name="item-pictures">
+                <span class="name">Gardening Tool Set</span>
+                <span class="price">12.99$</span>
+            </div>
+
+            <div class="tools">
+                <img src="images/16.jpg" class="item-img" name="item-pictures">
+                <span class="name">Large Tool Set</span>
+                <span class="price">49.99$</span>
+            </div>
+        </div>
+
+        <div id=zoomed-item>
+            <div id="close-zoom"><p>X</p></div>
+            <div id="triangle-left"></div>
+            <div id="zoomed-item-img"></div>
+            <div id="triangle-right"></div>
+        </div>
+    </section>
+
+    <footer>
+        Daniele Lamonica © 2020
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
